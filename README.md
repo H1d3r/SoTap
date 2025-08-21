@@ -31,12 +31,10 @@ In your **smali** code, make sure to load `sotap` first:
 ```smali
 const-string v0, "sotap"
 
-invoke-static {v0}, Ljava/lang/System;->loadLibrary(Ljava/lang/String;)V
-
-
+invoke-static {v0}, Ljava/lang/System;->loadLibrary(Ljava/lang/String;)V```
 ---
 
-Step 3: Run Your App
+**Step 3: Run Your App
 
 Launch your application.
 
