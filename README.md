@@ -18,24 +18,29 @@
 ---
 
 ## ▶️ Usage
-### Step 1: Download and Add Library
-- Download the file **`libs.zip`** from the [Releases](../../releases) section.
-- Extract and move the proper architecture folder (e.g., `arm64-v8a`, `armeabi-v7a`) into your app.
 
-### Step 2: Load Sotap before everything else
-In your **smali** code, make sure to load `sotap` first:
+**Step 1: Download and Add Library**  
+- Download the file **`libs.zip`** from the [Releases](../../releases) section.  
+- Extract and move the proper architecture folder (e.g., `arm64-v8a`, `armeabi-v7a`) into your app.  
+
+---
+
+**Step 2: Load Sotap Before Everything Else**  
+In your **smali** code, make sure to load `sotap` first:  
 
 ```smali
 const-string v0, "sotap"
 
 invoke-static {v0}, Ljava/lang/System;->loadLibrary(Ljava/lang/String;)V
 
+
+---
+
 Step 3: Run Your App
 
-After launching the app, logs will be generated and saved automatically in:
+Launch your application.
+
+Logs will be generated automatically and saved at:
 
 
 /data/user/0/YourAppPackageName/files/sotap.log
-
-
----
