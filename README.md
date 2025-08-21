@@ -3,7 +3,7 @@ NoNeed Root
 
 If you don't have access to the app's root directory, you can use **MT Manager** to add this access — even without root.
 **Sotap** is a library (`.so` file) used for logging activities from other `.so` (JNI) libraries.
-
+You can also update or extend the `sotap.c` file to customize or enhance the library for more advanced usage.
 ---
 
 ## 📄 Description
