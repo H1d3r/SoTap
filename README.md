@@ -31,17 +31,3 @@ Add this to your **smali** so `sotap` loads first:
 ```smali
 const-string v0, "sotap"
 invoke-static {v0}, Ljava/lang/System;->loadLibrary(Ljava/lang/String;)V
-
-
----
-
-▶️ Step 3: Run Your App
-
-🚀 Launch your application.
-
-📝 Logs will be generated automatically and saved at:
-/data/user/0/<YourAppPackageName>/files/sotap.log
-
-
-
----
