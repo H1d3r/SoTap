@@ -13,13 +13,6 @@
 
 ---
 
-##  Table of Contents
-- [Description](#description)
-- [Usage](#usage)
-- [Customization](#customization)
-
----
-
 ##  Description
 **Sotap** is a library (`.so` file) designed for logging and monitoring JNI (`.so`) files within your application.
 
