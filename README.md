@@ -27,7 +27,7 @@
 ---
 
 **⚙️ Step 2: Load Sotap Before Everything Else**  
-In your **smali** code, make sure to load `sotap` first:  
+In your **smali** code, make sure to load `sotap` first:
 
 ```smali
 const-string v0, "sotap"
