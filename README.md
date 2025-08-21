@@ -17,9 +17,6 @@
 - [Description](#description)
 - [Usage](#usage)
 - [Customization](#customization)
-- [Notes](#notes)
-- [License](#license)
-- [Author](#author)
 
 ---
 
