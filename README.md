@@ -11,6 +11,18 @@ How to work with SoTap? https://t.me/ForYouTillEnd/13
   `/data/user/0/<YourAppPackageName>/files/sotap.log`
 - ⚙️ Can be customized or extended via `sotap.c`.
 - 🔓 **No root required** — MT Manager can grant necessary access without root.
+- 🫠 SoTap 
+uses multiple paths for storage. If it fails, it prints it in logcat.
+
+ "/data/user/0/%s/files/sotap.log"
+ 
+"/data/data/%s/files/sotap.log" 
+
+"/sdcard/Android/data/%s/files/sotap.log" 
+
+"/sdcard/Download/sotap-%s.log" 
+
+"all writable paths failed; fallback to Logcat only.
 
 ---
 
