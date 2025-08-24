@@ -1,6 +1,7 @@
 # Sotap
 
 **Sotap** — A lightweight `.so` library for logging the behavior of JNI libraries.
+
 How to work with SoTap? https://t.me/ForYouTillEnd/13
 ---
 
