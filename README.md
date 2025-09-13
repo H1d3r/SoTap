@@ -39,13 +39,6 @@ uses multiple paths for storage. If it fails, it prints it in logcat.
 
 ---
 
-**⚙️ Step 2: Load Sotap Before Everything Else**  
-Add this to your **smali** so `sotap` loads first:
-```smali
-const-string v0, "sotap"
-invoke-static {v0}, Ljava/lang/System;->loadLibrary(Ljava/lang/String;)V
-
-
 💰 Donations
 
 If you’d like to support the development of Sotap, you can donate using the following addresses:
@@ -58,3 +51,11 @@ TRON (TRC20): TWjNHLwmL34oAejUHiEgtkcouFDkhdbHZv
 
 
 🙏 Your support helps keep this project alive and growing!
+
+---
+
+**⚙️ Step 2: Load Sotap Before Everything Else**  
+Add this to your **smali** so `sotap` loads first:
+```smali
+const-string v0, "sotap"
+invoke-static {v0}, Ljava/lang/System;->loadLibrary(Ljava/lang/String;)V
