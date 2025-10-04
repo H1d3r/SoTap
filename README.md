@@ -43,11 +43,8 @@ uses multiple paths for storage. If it fails, it prints it in logcat.
 
 If you’d like to support the development of Sotap, you can donate using the following addresses:
 
-Tether USDT (BSC/BEP20): 0x3ae0c5317db87fffcf80f14e69921e379642340d
 
-Tether USDT (TRC20): TWjNHLwmL34oAejUHiEgtkcouFDkhdbHZv
-
-TRON (TRC20): TWjNHLwmL34oAejUHiEgtkcouFDkhdbHZv
+TRON (TRC20): TMMYoMwQJgrtMYmfApB3hh1K4o8CZa9qo6
 
 
 🙏 Your support helps keep this project alive and growing!
